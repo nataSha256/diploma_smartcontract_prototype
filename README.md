@@ -1,0 +1,1 @@
+# diploma_smartcontract_prototype
