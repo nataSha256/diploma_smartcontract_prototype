@@ -1,0 +1,38 @@
+body {
+    background-color: #F0F0F0;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 1em;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
+button {
+    margin: 1em 0;
+    padding: 1em 4em;
+    display: block;
+}
+
+#diploma {
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em 0;
+}

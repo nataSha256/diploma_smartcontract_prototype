@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Conract Diploma</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="toastr.min.js"></script>
+</head>
+<body>
+    <img id="img_diploma" align="right">
+    <div class="container">
+        <h1>Diploma you want to check</h1>
+        <b>
+            <!--<label class="col-lg-2 control-label">Diploma image file</label>-->
+                <input type="file" id="diploma_image" accept="image/*" hidden>
+                <label class="col-lg-2 control-label">Smart Contract Address</label>
+                <input id="smart_contract_address" type="text">
+            </b>
+            <button id="check">Check Diploma</button>
+            <br>
+
+            <h1>Diploma information (from Smart Contract)</h1>
+            <b><label class="col-lg-2 control-label">NU Account Address</label></b>
+            <label for="name" class="col-lg-2 control-label" id="NU_Account_Address"> </label>
+            <br>
+            <b><label class="col-lg-2 control-label">Student Account Address</label></b>
+            <label for="name" class="col-lg-2 control-label" id="Student_Account_Address"> </label>
+            <br>
+            <b>
+                <label class="col-lg-2 control-label">Diploma hash (IPFS)</label>
+                <input id="ipfs" type="text">
+
+                <label class="col-lg-2 control-label">Description</label>
+                <input id="description" type="text">
+
+                <label class="col-lg-2 control-label">ECTS credits</label>
+                <input id="ects" type="number" min="0">
+
+                <button id="update_info">Update Diploma Info</button>
+
+                <label for="state" class="col-lg-2 control-label">
+                    <input id="state" type="checkbox" name="state">Active
+                </label>
+            </b>
+
+            <button id="update_state">Update Diploma State</button>
+        </div>
+
+
+
+
+    </body>
+    </html>
